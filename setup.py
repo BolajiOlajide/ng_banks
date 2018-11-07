@@ -19,7 +19,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='ng_banks',
     packages=['ng_banks'],
-    version='1.0.0',
+    version='1.0.1',
     long_description=long_description,
 
     description='Python Implementation for Lightweight Zero dependency npm \
