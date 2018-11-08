@@ -3,32 +3,32 @@ Module for handling main operations of the ng_banks package.
 """
 
 banks = [
-    {'name': 'ACCESS BANK PLC', 'code': '044', 'slug': 'ACC'},
-    {'name': 'CITIBANK NIGERIA PLC', 'code': '023', 'slug': 'CBN'},
-    {'name': 'DIAMOND BANK PLC', 'code': '063', 'slug': 'DMB'},
-    {'name': 'ECOBANK NIGERIA PLC', 'code': '050', 'slug': 'EBN'},
-    {'name': 'ENTERPRISE BANK', 'code': '084', 'slug': 'EPB'},
-    {'name': 'FIDELITY BANK PLC', 'code': '070', 'slug': 'FDB'},
-    {'name': 'FIRST BANK NIGERIA LIMITED', 'code': '011', 'slug': 'FBN'},
-    {'name': 'FIRST CITY MONUMENT BANK PLC', 'code': '214', 'slug': 'FCB'},
-    {'name': 'GUARANTY TRUST BANK PLC', 'code': '058', 'slug': 'GTB'},
-    {'name': 'HERITAGE BANK PLC', 'code': '030', 'slug': 'HTB'},
-    {'name': 'KEY STONE BANK', 'code': '082', 'slug': 'KSB'},
-    {'name': 'MAINSTREET BANK', 'code': '014', 'slug': 'MSB'},
-    {'name': 'POLARIS BANK LIMITED', 'code': '076', 'slug': 'PLB'},
-    {'name': 'PROVIDUS BANK LIMITED', 'code': '101', 'slug': 'PVB'},
-    {'name': 'STANBIC IBTC BANK LTD', 'code': '221', 'slug': 'SIB'},
+    {'name': 'ACCESS BANK PLC', 'code': '044', 'slug': 'ACC', 'ussd_code': '*901#'},
+    {'name': 'CITIBANK NIGERIA PLC', 'code': '023', 'slug': 'CBN', 'ussd_code': None},
+    {'name': 'DIAMOND BANK PLC', 'code': '063', 'slug': 'DMB', 'ussd_code': '*710#'},
+    {'name': 'ECOBANK NIGERIA PLC', 'code': '050', 'slug': 'EBN', 'ussd_code': '*326#'},
+    {'name': 'ENTERPRISE BANK', 'code': '084', 'slug': 'EPB', 'ussd_code': '*901#'},
+    {'name': 'FIDELITY BANK PLC', 'code': '070', 'slug': 'FDB', 'ussd_code': '*770#'},
+    {'name': 'FIRST BANK NIGERIA LIMITED', 'code': '011', 'slug': 'FBN', 'ussd_code': '*894#'},
+    {'name': 'FIRST CITY MONUMENT BANK PLC', 'code': '214', 'slug': 'FCB', 'ussd_code': '*329#'},
+    {'name': 'GUARANTY TRUST BANK PLC', 'code': '058', 'slug': 'GTB', 'ussd_code': '*737#'},
+    {'name': 'HERITAGE BANK PLC', 'code': '030', 'slug': 'HTB', 'ussd_code': '*322#'},
+    {'name': 'KEY STONE BANK', 'code': '082', 'slug': 'KSB', 'ussd_code': '*533#'},
+    {'name': 'MAINSTREET BANK', 'code': '014', 'slug': 'MSB', 'ussd_code': None},
+    {'name': 'POLARIS BANK LIMITED', 'code': '076', 'slug': 'PLB', 'ussd_code': None},
+    {'name': 'PROVIDUS BANK LIMITED', 'code': '101', 'slug': 'PVB', 'ussd_code': None},
+    {'name': 'STANBIC IBTC BANK LTD', 'code': '221', 'slug': 'SIB', 'ussd_code': '*909#'},
     {
         'name': 'STANDARD CHARTERED BANK NIGERIA LTD',
-        'code': '068', 'slug': 'SCB'
+        'code': '068', 'slug': 'SCB', 'ussd_code': None
     },
-    {'name': 'STERLING BANK PLC', 'code': '232', 'slug': 'STB'},
-    {'name': 'SUNTRUST BANK NIGERIA LTD', 'code': '100', 'slug': 'SBN'},
-    {'name': 'UNION BANK OF NIGERIA PLC', 'code': '032', 'slug': 'UBN'},
-    {'name': 'UNITED BANK FOR AFRICA PLC', 'code': '033', 'slug': 'UBA'},
-    {'name': 'UNITY BANK PLC', 'code': '215', 'slug': 'UNB'},
-    {'name': 'WEMA BANK PLC', 'code': '035', 'slug': 'WEM'},
-    {'name': 'ZENITH BANK PLC', 'code': '057', 'slug': 'ZIB'}
+    {'name': 'STERLING BANK PLC', 'code': '232', 'slug': 'STB', 'ussd_code': '*822#'},
+    {'name': 'SUNTRUST BANK NIGERIA LTD', 'code': '100', 'slug': 'SBN', 'ussd_code': None},
+    {'name': 'UNION BANK OF NIGERIA PLC', 'code': '032', 'slug': 'UBN', 'ussd_code': '*826#'},
+    {'name': 'UNITED BANK FOR AFRICA PLC', 'code': '033', 'slug': 'UBA', 'ussd_code': '*919#'},
+    {'name': 'UNITY BANK PLC', 'code': '215', 'slug': 'UNB', 'ussd_code': '*7799#'},
+    {'name': 'WEMA BANK PLC', 'code': '035', 'slug': 'WEM', 'ussd_code': '*945#'},
+    {'name': 'ZENITH BANK PLC', 'code': '057', 'slug': 'ZIB', 'ussd_code': '*966#'}
 ]
 
 
