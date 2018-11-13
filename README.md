@@ -23,9 +23,9 @@ The package contains two methods:
 
 >>> getBanks() # should print an array of banks
 
->>> getBank('GTB') # returns {'name': 'GUARANTY TRUST BANK PLC', 'code': '058', 'slug': 'GTB' }
+>>> getBank('GTB') # returns {'name': 'GUARANTY TRUST BANK PLC', 'code': '058', 'slug': 'GTB', 'ussd_code': '*737#' }
 
->>> getBank('044') # returns {'name': 'ACCESS BANK PLC', 'code': '044', 'slug': 'ACC' },
+>>> getBank('044') # returns {'name': 'ACCESS BANK PLC', 'code': '044', 'slug': 'ACC', 'ussd_code': '*901#' }
 ```
 
 ### CONTRIBUTORS
