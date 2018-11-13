@@ -14,7 +14,7 @@ The package contains two methods:
 
 * `getBanks()`: this method is used to retrieve all the banks in the system.
 
-* `getBank(slugOrCode)`: this method is used to retrieve a particular based on the parameter supplied. The parameter can either the be the slug of the bank or the bank code. For slugs or code that don't exist, this method returns None.
+* `getBank(param)`: this method is used to retrieve a particular bank based on the parameter supplied. The parameter can either the be the slug of the bank or the bank code. For slugs or code that don't exist, this method returns None.
 
 ### USAGE
 
