@@ -56,3 +56,12 @@ def getBank(_param):
         return bank[0]
     except IndexError:
         return None
+
+def addBank(name, code, slug, ussd_code=None):
+    
+    for index, bank in enumerate(banks):
+        if bank['code'] == code or bank['slug'] == slug:
+            raise Exception('Bank Already Exists With This Code or Slug')
+    bank = {'name': name.upper(), 'code':code, 'slug':slug, 'ussd_code':ussd_code}
+    banks.append(bank)
+    return bank
