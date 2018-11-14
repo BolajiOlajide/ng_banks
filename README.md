@@ -26,6 +26,8 @@ The package contains two methods:
 >>> getBank('GTB') # returns {'name': 'GUARANTY TRUST BANK PLC', 'code': '058', 'slug': 'GTB', 'ussd_code': '*737#' }
 
 >>> getBank('044') # returns {'name': 'ACCESS BANK PLC', 'code': '044', 'slug': 'ACC', 'ussd_code': '*901#' }
+
+>>> addBank(name, code, slug, ussd_code) # Extend the list of banks on the fly. Returns a new bank dict or throws Exception if bank already exists.
 ```
 
 ### CONTRIBUTORS
